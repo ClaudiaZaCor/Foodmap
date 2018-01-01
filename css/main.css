@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+  
+}
+
+.container-flex-column {
+  display: flex;
+	flex-direction:column;
+  justify-content: center;
+	padding: 2em;
+}
+
+.color-bg {
+  background: blanchedalmond;
+}
+
+.color-header {
+	background: #17b1b1;
+}
+	
+.fondo {
+	height: 100%;
+	width: 110%;
+	margin-bottom: 0px;
+}
+
+.title{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.pictures {
+	width: 25%;
+	height: 30%;
+}
+
+

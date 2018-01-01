@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Foodmap</title>
+</head>
+<body>
+  <body class="color-bg">
+    <header class="color-header">
+      <p class="title">Foodmap</p>
+    </header>
+    
+    <!-- Mapa -->
+    <section id="map" class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d31212.938268087197!2d-75.22724570876889!3d-12.06983240583108!3m2!1i1024!2i768!4f13.1!2m1!1srestaurants+cerca+de+huancayo!5e0!3m2!1ses-419!2spe!4v1514749307084" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section> 
+
+    <section id="filter" class="container-fluid">
+      <h3 class="h3 foodmap-main">Comida cerca de ti</h3>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" id="search-bar" class="form-control" placeholder="¿Qué se te antoja?">
+        </div>
+      </form>
+    </section>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-xs-4">
+          <a href="#" class="thumbnail">
+            <img class="pictures" src="../assets/images/daruma.jpg" alt="daruma">
+          </a>
+        </div>
+        <div class="col-xs-4">
+          <a href="#" class="thumbnail">
+            <img class="pictures" src="../assets/images/detrasdlc.jpg" alt="Detrasdlc">
+          </a>
+        </div>
+        <div class="col-xs-4">
+          <a href="#" class="thumbnail">
+            <img class="pictures" src="../assets/images/girasoles.jpg" alt="los-girasoles">
+          </a>
+        </div>        
+      </div>
+    </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/data.js"></script>
+  <script type="text/javascript" src="../js/app.js"></script>
+</body>
+</html>
